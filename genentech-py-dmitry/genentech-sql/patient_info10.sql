@@ -1,0 +1,3 @@
+SELECT patient_id, COUNT(DISTINCT diagnosis_code_prefix) AS patient_id_diff_diagnosis_code_prefix_count
+FROM diagnosis_feats
+GROUP BY patient_id;

@@ -1,0 +1,3 @@
+SELECT patient_id, COUNT(DISTINCT procedure_primary_practitioner_id) AS patient_id_diff_procedure_practitioner_count
+FROM procedure_head
+GROUP BY patient_id;

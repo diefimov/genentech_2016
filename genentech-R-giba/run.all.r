@@ -1,0 +1,8 @@
+source('build1.r')
+source('build2.r')
+source('build3.r')
+source('build4.r')
+source('build5.r')
+source('build.vw.r')
+source('write.features.r')
+print("ALL DONE!!!")
